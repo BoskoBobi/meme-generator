@@ -1,0 +1,41 @@
+.head {
+  width: 550px;
+  height: 25px;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+
+  padding: 20px;
+    
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.head--section {
+  width: 180px;
+  display: flex;
+}
+
+.head--icon {
+  width: 31px;
+  height: 26px;
+}
+
+.head--title {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 24px;
+  letter-spacing: -0.1em;
+
+  margin-left: 7px;
+
+  color: white;
+}
+
+.head--description {
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+
+  color: white;
+}
