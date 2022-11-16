@@ -1,10 +1,15 @@
 import { useState } from "react"
 import Header from "./components/Header"
-import "./assets/styles/HeaderStyle.css"
+import Meme from "./components/Meme"
 import "./assets/styles/General.css"
+import "./assets/styles/HeaderStyle.css"
+import "./assets/styles/MemeStyle.css"
 
 export default function App() {
   return (
-    <Header />
+    <div>
+      <Header />
+      <Meme />
+    </div>
   )
-  }
+}

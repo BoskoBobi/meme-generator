@@ -1,0 +1,13 @@
+.head--input_text {
+  width: 230px;
+  height: 35px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #0D0D0D;
+}
+
+.head--button--generator {
+  display: block;
+}
