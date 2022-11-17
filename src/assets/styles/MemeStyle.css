@@ -1,13 +1,44 @@
-.head--input_text {
+.form {
+  padding-left: 36px;
+  padding-right: 36px;
+  width: 518px;
+  margin-top: 36px; 
+}
+
+.form--inputs--flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form--input_text {
   width: 230px;
   height: 35px;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 0.75rem;
   line-height: 14px;
+  text-indent: 5px;
 
+  border-radius: 5px;
+  border: 1px solid #D5D4D8;
   color: #0D0D0D;
 }
 
-.head--button--generator {
+.form--button--generator {
+  font-weight: 700;
+  font-size: 1rem;
+
+  line-height: 19px;
+  width: 100%;
+  height: 40px;
+  margin-top: 15px;
+  margin-bottom: 36px;
+  letter-spacing: -0.1em;
+
   display: block;
+
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  cursor: pointer;
 }
